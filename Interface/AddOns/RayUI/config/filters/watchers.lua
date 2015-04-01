@@ -71,6 +71,12 @@ R["Watcher"] = {
                 { spellID = 61336, unitId = "player", caster = "player", filter = "BUFF" },
                 --節能施法
                 { spellID = 16870, unitId = "player", caster = "player", filter = "BUFF" },
+                --德魯伊T17四件套(推疊)
+                { spellID = 177794, unitId = "player", caster = "player", filter = "BUFF" },
+                --德魯伊T17四件套(觸發)
+                { spellID = 167715, unitId = "player", caster = "player", filter = "BUFF" },
+                --德魯伊T17二件套(自然迅捷)
+                { spellID = 132158, unitId = "player", caster = "player", filter = "BUFF" },
                 --樹皮術
                 { spellID = 22812, unitId = "player", caster = "player", filter = "BUFF" },
                 --狂暴
