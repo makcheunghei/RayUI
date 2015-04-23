@@ -1344,7 +1344,7 @@ R["Watcher"] = {
                 { spellID = 16511, unitId = "target", caster = "player", filter = "DEBUFF" },
                 --找尋弱點
                 { spellID = 91021, unitId = "target", caster = "player", filter = "DEBUFF" },
-                --制裁之錘
+                --制裁之鎚
                 { spellID = 853, unitId = "target", caster = "all", filter = "DEBUFF" },
                 --制裁之拳
                 { spellID = 105593, unitId = "target", caster = "all", filter = "DEBUFF" },
@@ -1352,7 +1352,7 @@ R["Watcher"] = {
                 { spellID = 156745, unitId = "target", caster = "player", filter = "DEBUFF" },
             },
             {
-                name = "焦点buff&debuff",
+                name = "焦點buff&debuff",
                 direction = "UP",
                 setpoint = positions.focus_buff_icon,
                 size = 24,
@@ -1378,13 +1378,13 @@ R["Watcher"] = {
                 { spellID = 137619, filter = "CD" },
                 --暗影步
                 { spellID = 36554, filter = "CD" },
-                --预备
+                --預備
                 { spellID = 14185, filter = "CD" },
                 --疾跑
                 { spellID = 2983, filter = "CD" },
                 --斗篷
                 { spellID = 31224, filter = "CD" },
-                --闪避
+                --閃避
                 { spellID = 5277, filter = "CD" },
                 --影舞
                 { spellID = 51713, filter = "CD" },
@@ -1394,15 +1394,15 @@ R["Watcher"] = {
                 { spellID = 2094, filter = "CD" },
                 --偷天換日
                 { spellID = 57934, filter = "CD" },
-                --战斗就绪
+                --戰鬥就緒
                 { spellID = 74001, filter = "CD" },
-                --烟雾弹
+                --煙霧彈
                 { spellID = 76577, filter = "CD" },
                 --消失
                 { spellID = 1856, filter = "CD" },
                 --宿怨
                 { spellID = 79140, filter = "CD" },
-                --狂舞杀戮
+                --狂舞殺戮
                 { spellID = 51690, filter = "CD" },
                 --能量刺激
                 { spellID = 13750, filter = "CD" },
@@ -1412,11 +1412,11 @@ R["Watcher"] = {
                 -- 物品
                 -- 手套
                 {slotID = 10, filter = "CD" },
-                -- 腰带
+                -- 腰帶
                 {slotID = 6, filter = "CD" },
-                -- 披风
+                -- 披風
                 {slotID = 15, filter = "CD" },
-                -- 饰品
+                -- 飾品
                 {slotID = 13, filter = "CD" },
                 {slotID = 14, filter = "CD" },
             },
@@ -1430,7 +1430,7 @@ R["Watcher"] = {
 
             },
             {
-                name = "目标buff&debuff",
+                name = "目標buff&debuff",
                 direction = "RIGHT",
                 setpoint = positions.target_buff_icon,
                 size = 28,
@@ -1478,7 +1478,7 @@ R["Watcher"] = {
                 { spellID = 50421, unitId = "player", caster = "player", filter = "BUFF" },
             },
             {
-                name = "目标重要buff&debuff",
+                name = "目標重要buff&debuff",
                 direction = "RIGHT",
                 setpoint = positions.target_proc_icon,
                 size = 38,
@@ -1498,7 +1498,7 @@ R["Watcher"] = {
                 { spellID = 114866, unitId = "target", caster = "player", filter = "DEBUFF" },
             },
             {
-                name = "焦点buff&debuff",
+                name = "焦點buff&debuff",
                 direction = "UP",
                 setpoint = positions.focus_buff_icon,
                 size = 24,
@@ -1519,11 +1519,11 @@ R["Watcher"] = {
                 -- 物品
                 -- 手套
                 {slotID = 10, filter = "CD" },
-                -- 腰带
+                -- 腰帶
                 {slotID = 6, filter = "CD" },
-                -- 披风
+                -- 披風
                 {slotID = 15, filter = "CD" },
-                -- 饰品
+                -- 飾品
                 {slotID = 13, filter = "CD" },
                 {slotID = 14, filter = "CD" },
             },
@@ -1555,7 +1555,7 @@ R["Watcher"] = {
                 { spellID = 115867, unitId = "player", caster = "player", filter = "BUFF" },
             },
             {
-                name = "目标buff&debuff",
+                name = "目標buff&debuff",
                 direction = "RIGHT",
                 setpoint = positions.target_buff_icon,
                 size = 28,
@@ -1599,7 +1599,7 @@ R["Watcher"] = {
                 { spellID = 118864, unitId = "player", caster = "player", filter = "BUFF" },
             },
             {
-                name = "目标重要buff&debuff",
+                name = "目標重要buff&debuff",
                 direction = "RIGHT",
                 setpoint = positions.target_proc_icon,
                 size = 38,
@@ -1608,11 +1608,11 @@ R["Watcher"] = {
                 { spellID = 119381, unitId = "target", caster = "player", filter = "DEBUFF" },
                 --微醺醉氣
                 { spellID = 116330, unitId = "target", caster = "player", filter = "DEBUFF" },
-                --旭日东升踢
+                --旭日東昇踢
                 { spellID = 130320, unitId = "target", caster = "player", filter = "DEBUFF" },
             },
             {
-                name = "焦点buff&debuff",
+                name = "焦點buff&debuff",
                 direction = "UP",
                 setpoint = positions.focus_buff_icon,
                 size = 24,
@@ -1650,11 +1650,11 @@ R["Watcher"] = {
                 -- 物品
                 -- 手套
                 {slotID = 10, filter = "CD" },
-                -- 腰带
+                -- 腰帶
                 {slotID = 6, filter = "CD" },
-                -- 披风
+                -- 披風
                 {slotID = 15, filter = "CD" },
-                -- 饰品
+                -- 飾品
                 {slotID = 13, filter = "CD" },
                 {slotID = 14, filter = "CD" },
             },
@@ -1671,7 +1671,7 @@ R["Watcher"] = {
                 { spellID = 126697, unitId = "player", caster = "all", filter = "BUFF" },
                 -- PvP 飾品 (全能)
                 { spellID = 170397, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 炼金 飾品 (敏捷)
+                -- 煉金 飾品 (敏捷)
                 { spellID = 60233, unitId = "player", caster = "all", filter = "BUFF" },
 
 
@@ -1691,101 +1691,101 @@ R["Watcher"] = {
                -- 大法師的白熱強光 (敏捷)
                { spellID = 177172, unitId = "player", caster = "player", filter = "BUFF" },
                 -- 暗月卡牌
-                -- 玉珑圣物 (智力, 触发)
+                -- 玉瓏聖物 (智力, 觸發)
                 { spellID = 128985, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雪怒圣物 (力量, 触发)
+                -- 雪怒聖物 (力量, 觸發)
                 { spellID = 128986, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雪怒圣物 (敏捷, 触发)
+                -- 雪怒聖物 (敏捷, 觸發)
                 { spellID = 128984, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 赤精圣物 (精神, 触发)
+                -- 赤精聖物 (精神, 觸發)
                 { spellID = 128987, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 骑士徽章 (爆击, 触发)
+                -- 騎士徽章 (爆擊, 觸發)
                 { spellID = 162917, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 战争之颅 (爆击, 触发)
+                -- 戰爭之顱 (爆擊, 觸發)
                 { spellID = 162915, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 睡魔之袋 (爆击, 触发)
+                -- 睡魔之袋 (爆擊, 觸發)
                 { spellID = 162919, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 羽翼沙漏 (精神, 触发)
+                -- 羽翼沙漏 (精神, 觸發)
                 { spellID = 162913, unitId = "player", caster = "all", filter = "BUFF" },
 
                 -- 坦
                 -- 岩心雕像
                 { spellID = 176982, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 齐布的愚忠
+                -- 齊布的愚忠
                 { spellID = 176460, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 普尔的盲目之眼
+                -- 普爾的盲目之眼
                 { spellID = 176876, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 石化食肉孢子
                 { spellID = 165824, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 不眠奥术精魂
+                -- 不眠奧術精魂
                 { spellID = 177053, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 无懈合击石板
+                -- 無懈合擊石板
                 { spellID = 176873, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 爆裂熔炉之门
+                -- 爆裂熔爐之門
                 { spellID = 177056, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 重击护符
+                -- 重擊護符
                 { spellID = 177102, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 鲁克的不幸护符 (减伤, 使用)
+                -- 魯克的不幸護符 (減傷, 使用)
                 { spellID = 146343, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 砮皂之毅 (躲闪, 使用)
+                -- 砮皂之毅 (躲閃, 使用)
                 { spellID = 146344, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 季鹍的复苏之风 (生命, 触发)
+                -- 季鹍的復甦之風 (生命, 觸發)
                 { spellID = 138973, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 赞达拉之韧 (生命, 使用)
+                -- 贊達拉之韌 (生命, 使用)
                 { spellID = 126697, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 嗜血者的精致小瓶 (精通, 触发)
+                -- 嗜血者的精緻小瓶 (精通, 觸發)
                 { spellID = 138864, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 影踪突袭营的坚定护符 (躲闪, 使用)
+                -- 影蹤突襲營的堅定護符 (躲閃, 使用)
                 { spellID = 138728, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 梦魇残片 (躲闪, 触发)
+                -- 夢魘殘片 (躲閃, 觸發)
                 { spellID = 126646, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 龙血之瓶 (躲闪, 触发)
+                -- 龍血之瓶 (躲閃, 觸發)
                 { spellID = 126533, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 玉质军阀俑 (精通, 使用)
+                -- 玉質軍閥俑 (精通, 使用)
                 { spellID = 126597, unitId = "player", caster = "all", filter = "BUFF" },
 
                 -- 物理敏捷DPS
-                -- 黑心执行者勋章
+                -- 黑心執行者勛章
                 { spellID = 176984, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 双面幸运金币
+                -- 雙面幸運金幣
                 { spellID = 177597, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 毁灭之鳞
+                -- 毀滅之鱗
                 { spellID = 177038, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 多肉龙脊奖章
+                -- 多肉龍脊獎章
                 { spellID = 177035, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 跃动的山脉之心
+                -- 躍動的山脈之心
                 { spellID = 176878, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 蜂鸣黑铁触发器
+                -- 蜂鳴黑鐵觸發器
                 { spellID = 177067, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 既定之天命 (敏捷, 触发)
+                -- 既定之天命 (敏捷, 觸發)
                 { spellID = 146308, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 哈洛姆的护符 (敏捷, 触发)
+                -- 哈洛姆的護符 (敏捷, 觸發)
                 { spellID = 148903, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 暴怒之印 (敏捷, 触发)
+                -- 暴怒之印 (敏捷, 觸發)
                 { spellID = 148896, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 滴答作响的黑色雷管 (敏捷, 触发)
+                -- 滴答作響的黑色雷管 (敏捷, 觸發)
                 { spellID = 146310, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雪怒之律 (爆击, 触发)
+                -- 雪怒之律 (爆擊, 觸發)
                 { spellID = 146312, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 邪恶魂能 (敏捷, 触发)
+                -- 邪惡魂能 (敏捷, 觸發)
                 { spellID = 138938, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 杀戮护符 (急速, 触发)
+                -- 殺戮護符 (急速, 觸發)
                 { spellID = 138895, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 重生符文 (转换, 触发)
+                -- 重生符文 (轉換, 觸發)
                 { spellID = 139120, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 139121, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 139117, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雷纳塔基的灵魂符咒 (敏捷, 触发)
+                -- 雷納塔基的靈魂符咒 (敏捷, 觸發)
                 { spellID = 138756, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 影踪突袭营的邪恶护符 (敏捷, 触发)
+                -- 影蹤突襲營的邪惡護符 (敏捷, 觸發)
                 { spellID = 138699, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 飞箭奖章 (爆击, 使用)
+                -- 飛箭獎章 (爆擊, 使用)
                 { spellID = 136086, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 萦雾之恐 (爆击, 触发)
+                -- 縈霧之恐 (爆擊, 觸發)
                 { spellID = 126649, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 玉质盗匪俑 (急速, 使用)
+                -- 玉質盜匪俑 (急速, 使用)
                 { spellID = 126599, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 群星之瓶 (敏捷, 触发)
+                -- 群星之瓶 (敏捷, 觸發)
                 { spellID = 126554, unitId = "player", caster = "all", filter = "BUFF" },
                 -- PvP飾品 (敏捷, 使用)
                 { spellID = 126690, unitId = "player", caster = "all", filter = "BUFF" },
@@ -1793,47 +1793,47 @@ R["Watcher"] = {
                 { spellID = 126707, unitId = "player", caster = "all", filter = "BUFF" },
 
                 -- 物理力量DPS
-                -- 活体火山微粒
+                -- 活體火山微粒
                 { spellID = 176974, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 齐亚诺斯的剑鞘
+                -- 齊亞諾斯的劍鞘
                 { spellID = 177189, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 泰克图斯的脉动之心
+                -- 泰克圖斯的脈動之心
                 { spellID = 177040, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 抽搐暗影之瓶
                 { spellID = 176874, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 尖啸之魂号角
+                -- 尖嘯之魂號角
                 { spellID = 177042, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 熔炉主管的徽记
+                -- 熔爐主管的徽記
                 { spellID = 177096, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 迦拉卡斯的邪恶之眼 (力量, 触发)
+                -- 迦拉卡斯的邪惡之眼 (力量, 觸發)
                 { spellID = 146245, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 索克的尾巴尖 (力量, 触发)
+                -- 索克的尾巴尖 (力量, 觸發)
                 { spellID = 146250, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 斯基尔的沁血护符 (力量, 触发)
+                -- 斯基爾的沁血護符 (力量, 觸發)
                 { spellID = 146285, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 融火之核 (力量, 触发)
+                -- 融火之核 (力量, 觸發)
                 { spellID = 148899, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 天神迅捷 (急速, 触发)
+                -- 天神迅捷 (急速, 觸發)
                 { spellID = 146296, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 季鹍的传说之羽 (力量, 触发)
+                -- 季鹍的傳說之羽 (力量, 觸發)
                 { spellID = 138759, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 赞达拉之火 (力量, 触发)
+                -- 贊達拉之火 (力量, 觸發)
                 { spellID = 138958, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 普莫迪斯的狂怒咒符 (力量, 触发)
+                -- 普莫迪斯的狂怒咒符 (力量, 觸發)
                 { spellID = 138870, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 双后的凝视 (爆击, 触发)
+                -- 雙後的凝視 (爆擊, 觸發)
                 { spellID = 139170, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 破盔者奖章 (爆击, 使用)
+                -- 破盔者獎章 (爆擊, 使用)
                 { spellID = 136084, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 影踪突袭营的野蛮护符 (力量, 触发)
+                -- 影蹤突襲營的野蠻護符 (力量, 觸發)
                 { spellID = 138702, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 黑雾漩涡 (急速, 触发)
+                -- 黑霧漩渦 (急速, 觸發)
                 { spellID = 126657, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雷神的遗诏 (力量, 触发)
+                -- 雷神的遺詔 (力量, 觸發)
                 { spellID = 126582, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 玉质御者俑 (力量, 使用)
+                -- 玉質御者俑 (力量, 使用)
                 { spellID = 126599, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 铁腹炒锅 (急速, 使用)
+                -- 鐵腹炒鍋 (急速, 使用)
                 { spellID = 129812, unitId = "player", caster = "all", filter = "BUFF" },
                 -- PvP飾品 (力量, 使用)
                 { spellID = 126679, unitId = "player", caster = "all", filter = "BUFF" },
@@ -1841,9 +1841,9 @@ R["Watcher"] = {
                 { spellID = 126700, unitId = "player", caster = "all", filter = "BUFF" },
 
                 -- 法系通用
-                -- 科普兰的清醒
+                -- 科普蘭的清醒
                 { spellID = 177594, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雷衝勳章 (智力, 使用)
+                -- 雷衝勛章 (智力, 使用)
                 { spellID = 136082, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 翠玉執政官刻像 (暴擊, 使用)
                 { spellID = 126605, unitId = "player", caster = "all", filter = "BUFF" },
@@ -1855,67 +1855,67 @@ R["Watcher"] = {
                 -- 法系DPS
                 -- 動亂聚焦水晶
                 { spellID = 176882, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 狂怒之心护符
+                -- 狂怒之心護符
                 { spellID = 176980, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 虚无碎片
+                -- 虛無碎片
                 { spellID = 176875, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 髟鼠蜥人灵魂容器
+                -- 髟鼠蜥人靈魂容器
                 { spellID = 177046, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 达玛克的无常护符
+                -- 達瑪克的無常護符
                 { spellID = 177051, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 黑铁微型坩埚
+                -- 黑鐵微型坩堝
                 { spellID = 177081, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 伊墨苏斯的净化之缚 (智力, 触发)
+                -- 伊墨蘇斯的淨化之縛 (智力, 觸發)
                 { spellID = 146046, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 卡德里斯的剧毒图腾 (智力, 触发)
+                -- 卡德里斯的劇毒圖騰 (智力, 觸發)
                 { spellID = 148906, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 亚煞极的黑暗之血 (智力, 触发)
+                -- 亞煞極的黑暗之血 (智力, 觸發)
                 { spellID = 146184, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 狂怒水晶 (智力, 触发)
+                -- 狂怒水晶 (智力, 觸發)
                 { spellID = 148897, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 玉珑之噬 (爆击, 触发)
+                -- 玉瓏之噬 (爆擊, 觸發)
                 { spellID = 146218, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 雷神的精准之视 (智力, 触发)
+                -- 雷神的精準之視 (智力, 觸發)
                 { spellID = 138963, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 张叶的辉煌精华 (智力, 触发)
+                -- 張葉的輝煌精華 (智力, 觸發)
                 { spellID = 139133, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 九头蛇之息 (智力, 触发)
+                -- 九頭蛇之息 (智力, 觸發)
                 { spellID = 138898, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 乌苏雷的最终抉择 (智力, 触发)
+                -- 烏蘇雷的最終抉擇 (智力, 觸發)
                 { spellID = 138786, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 影踪突袭营的烈性咒符 (急速, 触发)
+                -- 影蹤突襲營的烈性咒符 (急速, 觸發)
                 { spellID = 138703, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 惊怖精华 (急速, 触发)
+                -- 驚怖精華 (急速, 觸發)
                 { spellID = 126659, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 宇宙之光 (智力, 触发)
+                -- 宇宙之光 (智力, 觸發)
                 { spellID = 126577, unitId = "player", caster = "all", filter = "BUFF" },
 
                 -- 治療
                 -- 完美的活性蘑菇
                 { spellID = 176978, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 腐蚀治疗徽章
+                -- 腐蝕治療徽章
                 { spellID = 176879, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 元素师的屏蔽护符
+                -- 元素師的屏蔽護符
                 { spellID = 177063, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 铁刺狗玩具
+                -- 鐵刺狗玩具
                 { spellID = 177060, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 自动修复灭菌器
+                -- 自動修覆滅菌器
                 { spellID = 177086, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 傲慢之棱光囚笼 (智力, 触发)
+                -- 傲慢之棱光囚籠 (智力, 觸發)
                 { spellID = 146314, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 纳兹戈林的抛光勋章 (智力, 触发)
+                -- 納茲戈林的拋光勛章 (智力, 觸發)
                 { spellID = 148908, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 索克的酸蚀之牙 (智力, 触发)
+                -- 索克的酸蝕之牙 (智力, 觸發)
                 { spellID = 148911, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 间歇性变异平衡器 (精神, 触发)
+                -- 間歇性變異平衡器 (精神, 觸發)
                 { spellID = 146317, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 九头蛇卵的铭文袋 (吸收, 触发)
+                -- 九頭蛇卵的銘文袋 (吸收, 觸發)
                 { spellID = 140380, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 赫利东的垂死之息 (法力, 触发)
+                -- 赫利東的垂死之息 (法力, 觸發)
                 { spellID = 138856, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 骄阳之魂 (精神, 触发)
+                -- 驕陽之魂 (精神, 觸發)
                 { spellID = 126640, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 秦希的偏振之印 (智力, 触发)
+                -- 秦希的偏振之印 (智力, 觸發)
                 { spellID = 126588, unitId = "player", caster = "all", filter = "BUFF" },
 
                 --專業技能
@@ -1929,19 +1929,19 @@ R["Watcher"] = {
                 { spellID = 60234, unitId = "player", caster = "all", filter = "BUFF" },
 
                 --武器附魔
-                -- 涓咏
+                -- 涓詠
                 { spellID = 116660, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 玉魂
                 { spellID = 104993, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 钢铁之舞
+                -- 鋼鐵之舞
                 { spellID = 120032, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 爆裂领主的毁灭瞄准镜
+                -- 爆裂領主的毀滅瞄準鏡
                 { spellID = 109085, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 雷神之印
                 { spellID = 159234, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 战歌之印
+                -- 戰歌之印
                 { spellID = 159675, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 血环之印
+                -- 血環之印
                 { spellID = 173322, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 霜狼之印
                 { spellID = 159676, unitId = "player", caster = "all", filter = "BUFF" },
@@ -1949,7 +1949,12 @@ R["Watcher"] = {
                 { spellID = 159678, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 黑石之印
                 { spellID = 159679, unitId = "player", caster = "all", filter = "BUFF" },
-
+                -- 武僧套裝T17(二件)
+                { spellID = 167732, unitId = "player", caster = "all", filter = "BUFF" },
+                -- 武僧套裝T17(四件)
+                { spellID = 167717, unitId = "player", caster = "all", filter = "BUFF" },   
+                -- 聚雷茶
+                { spellID = 166680, unitId = "player", caster = "all", filter = "BUFF" },      
                 --藥水
                 -- Draenic Agility Potion
                 { spellID = 156423, unitId = "player", caster = "player", filter = "BUFF" },
@@ -1981,11 +1986,11 @@ R["Watcher"] = {
                 { spellID = 90355, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 警戒
                 { spellID = 114030, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 群体法术反射
+                -- 群體法術反射
                 { spellID = 114028, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 振奮咆哮
                 { spellID = 97463, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 反魔法力场
+                -- 反魔法力場
                 { spellID = 145629, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 犧牲聖禦
                 { spellID = 6940, unitId = "player", caster = "all", filter = "BUFF" },
@@ -1993,47 +1998,47 @@ R["Watcher"] = {
                 { spellID = 1022, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 虔誠光環
                 { spellID = 31821, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 守护之魂
+                -- 守護之魂
                 { spellID = 47788, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 痛苦镇压
+                -- 痛苦鎮壓
                 { spellID = 33206, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 真言術：壁
                 { spellID = 81782, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 吸血鬼的拥抱
+                -- 吸血鬼的擁抱
                 { spellID = 15286, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 灵魂链接图腾
+                -- 靈魂鏈接圖騰
                 { spellID = 98008, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 气茧护体
+                -- 氣繭護體
                 { spellID = 116849, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 铁木树皮
+                -- 鐵木樹皮
                 { spellID = 102342, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 奔窜咆哮
+                -- 奔竄咆哮
                 { spellID = 106898, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 灵狐守护
+                -- 靈狐守護
                 { spellID = 172106, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 魔法增效
                 { spellID = 159916, unitId = "player", caster = "all", filter = "BUFF" },
 
                 --橙色多彩
-                -- 不屈之源钻 (耐力, 减伤)
+                -- 不屈之源鑽 (耐力, 減傷)
                 { spellID = 137593, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 阴险之源钻 (爆击, 急速)
+                -- 陰險之源鑽 (爆擊, 急速)
                 { spellID = 137590, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 英勇之源钻 (智力, 节能)
+                -- 英勇之源鑽 (智力, 節能)
                 { spellID = 137331, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 137247, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 137323, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 137326, unitId = "player", caster = "all", filter = "BUFF" },
                 { spellID = 137288, unitId = "player", caster = "all", filter = "BUFF" },
 
-                --橙色披风
-                -- 赤精之魂 (治疗)
+                --橙色披風
+                -- 赤精之魂 (治療)
                 { spellID = 146200, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 雪怒之捷 (物理)
                 { spellID = 146194, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 玉珑之精 (法系)
+                -- 玉瓏之精 (法系)
                 { spellID = 146198, unitId = "player", caster = "all", filter = "BUFF" },
-                -- 砮皂之韧 (坦克)
+                -- 砮皂之韌 (坦克)
                 { spellID = 148010, unitId = "player", caster = "all", filter = "BUFF" },
 
                 --種族天賦
@@ -2041,13 +2046,13 @@ R["Watcher"] = {
                 { spellID = 20572, unitId = "player", caster = "player", filter = "BUFF" },
                 -- 狂暴
                 { spellID = 26297, unitId = "player", caster = "player", filter = "BUFF" },
-                -- 石像形态
+                -- 石像形態
                 { spellID =  65116, unitId = "player", caster = "player", filter = "BUFF" },
                 -- 疾步夜行
                 { spellID =  68992, unitId = "player", caster = "player", filter = "BUFF" },
                 -- 影遁
                 { spellID =  58984, unitId = "player", caster = "player", filter = "BUFF" },
-                -- 纳鲁的赐福
+                -- 納魯的賜福
                 { spellID =  28880, unitId = "player", caster = "all", filter = "BUFF" },
 
                 --法師T16, 冰凍意念
@@ -2167,7 +2172,7 @@ R["Watcher"] = {
                 { spellID = 116706, unitId = "player", caster = "all", filter = "DEBUFF" },
 
                 --聖騎士
-                -- 制裁之錘
+                -- 制裁之鎚
                 { spellID = 853, unitId = "player", caster = "all", filter = "DEBUFF" },
                 -- 制裁之拳
                 { spellID = 105593, unitId = "player", caster = "all", filter = "DEBUFF" },
@@ -2207,7 +2212,7 @@ R["Watcher"] = {
                 --盜賊
                 -- 腎擊
                 { spellID = 408, unitId = "player", caster = "all", filter = "DEBUFF" },
-                -- 烟雾弹
+                -- 煙霧彈
                 { spellID = 88611, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 偷襲
                 { spellID = 1833, unitId = "player", caster = "all", filter = "DEBUFF" },
@@ -2296,7 +2301,7 @@ R["Watcher"] = {
 
                 --副本
                 --雷霆王座
-                -- 电离反应
+                -- 電離反應
                 { spellID = 138732, unitId = "player", caster = "all", filter = "DEBUFF", fuzzy = true },
                 -- 聚能閃電
                 { spellID = 137422, unitId = "player", caster = "all", filter = "DEBUFF", fuzzy = true },
@@ -2359,7 +2364,7 @@ R["Watcher"] = {
                 { spellID = 94794, unitId = "player", caster = "all", filter = "DEBUFF" },
             },
             {
-                name = "PVE/PVP目标buff&debuff",
+                name = "PVE/PVP目標buff&debuff",
                 direction = "UP",
                 setpoint = positions.pve_target_icon,
                 size = 51,
