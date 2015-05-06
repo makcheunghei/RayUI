@@ -1949,12 +1949,21 @@ R["Watcher"] = {
                 { spellID = 159678, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 黑石之印
                 { spellID = 159679, unitId = "player", caster = "all", filter = "BUFF" },
+<<<<<<< HEAD
                 -- 武僧套裝T17(二件)
                 { spellID = 167732, unitId = "player", caster = "all", filter = "BUFF" },
                 -- 武僧套裝T17(四件)
                 { spellID = 167717, unitId = "player", caster = "all", filter = "BUFF" },   
                 -- 聚雷茶
                 { spellID = 166680, unitId = "player", caster = "all", filter = "BUFF" },      
+=======
+             -- 武僧套裝T17(二件)
+                { spellID = 167732, unitId = "player", caster = "all", filter = "BUFF" },
+                -- 武僧套裝T17(四件)
+              { spellID = 167717, unitId = "player", caster = "all", filter = "BUFF" },   
+            -- 聚雷茶
+               { spellID = 166680, unitId = "player", caster = "all", filter = "BUFF" },      
+>>>>>>> parent of 742fb73... Revert "test"
                 --藥水
                 -- Draenic Agility Potion
                 { spellID = 156423, unitId = "player", caster = "player", filter = "BUFF" },
